@@ -95,7 +95,7 @@ class MyApp extends StatelessWidget {
                   ),
                   Spacer(),
                   IconButton(
-                    icon: Icon(Icons.settings, color: Colors.red), // Ubah warna ikon setting menjadi oranye
+                    icon: Icon(Icons.settings, color: Colors.red), 
                     onPressed: () {},
                   ),
                 ],
@@ -113,9 +113,9 @@ class MyApp extends StatelessWidget {
                       backgroundColor: MaterialStateProperty.resolveWith<Color>(
                         (Set<MaterialState> states) {
                           if (states.contains(MaterialState.hovered)) {
-                            return Colors.orange; // Warna saat tombol dihover
+                            return Colors.orange; 
                           }
-                          return Colors.orange; // Warna default
+                          return Colors.orange; 
                         },
                       ),
                     ),
